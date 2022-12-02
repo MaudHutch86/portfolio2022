@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    /* font-family: 'Syne Mono', monospace; */
+    
+    /* color:rgba(46, 80, 128, 1) ; */
+     /* color:rgba(158, 143, 221, 1);  */
+    /* color:rgba(221, 165, 226, 1); */
+
+}
+/* CSS landing page*/
+
+body{
+   background-color : rgb(6, 4, 6);
+   font-family: 'Hubballi', cursive;
+
+}
+/* CSS NAV BAR */
+li {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Hubballi';
+    color: #2A180Cff;
+    font-weight: bold;
+ }
+ 
+ .header-container{
+     position: relative;
+     height: 20%;
+     display: block;
+ }
+ 
+ .home-nav{
+ display: flex;
+ height: 50px;
+ width: 100%;
+ background: linear-gradient(to right,  #C791E7ff,#86E7D4ff, #2A180Cff);
+ margin-bottom: 8px;
+ }
+
+ /* .home-nav .nav-links ul li.active a{
+    color:white;
+    font-weight: 900;
+} */
+
+.home-nav .menu-hamburger{
+    display: none;
+    margin: 8px;
+    height: 40px;
+    width: 40px;
+
+}
+
+
+ a{
+    color:#2A180Cff ;
+    font-family: 'Hubballi';
+    margin: 10px 20px ;
+    line-height: 2;
+    text-decoration: none;
+}
+
+
+#title {
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-size: 312.5%;
+    color:white;
+   
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+   
+
+   
+    padding: 2rem;
+    
+  
+}
+
+p{
+    color:rgba(158, 143, 221, 1);
+    font-size: 27px;
+    
+}
+
+h2{
+   
+    color:rgba(221, 165, 226, 1);
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+    margin: 4rem;
+ }
+
+ button {
+    background-color:rgba(134, 231, 212, 1);
+    height: 3rem;
+    width: 3rem;
+    margin: 8px;
+    border-radius: 10px;
+    
+ }
+
+ .icon-container{
+  padding: 8px;
+    
+ }
+
+ footer{
+    height: 20%;
+    width: 100%;
+    background: linear-gradient(to left,  #C791E7ff,#86E7D4ff, #2A180Cff);
+    padding: 50px 0 20px;
+    text-align: center;
+ 
+
+}
+.footer{
+    position:relative ;
+    margin-bottom: 50px;
+
+}
+
+
+@media screen and (max-width: 550px) {
+   
+
+    /* HOME PAGE mobile version css */
+
+    .home-nav{
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 20px;
+        font-family: 'Hubballi';
+        color: #2A180Cff;
+        font-weight: bold;
+     }
+    
+    .nav-links{
+      top:0;
+      left:0;
+      position: absolute;
+      width: 100%;
+      background-color:rgba(215, 193, 228, 0.602) ;
+      height:100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -100%;
+      
+    }
+
+ 
+    .mobile-menu{
+        margin-left: 0;
+    }
+
+
+    .home-nav .menu-hamburger{
+       display: block;
+       position: absolute;
+    
+    }
+
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .nav-links ul li{
+        margin:5px 0;
+        font-size: 3rem;
+    }
+
+ 
+   
+  }
+
+
+  
+

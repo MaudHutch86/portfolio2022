@@ -1,0 +1,696 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    /* font-family: 'Syne Mono', monospace; */
+    
+    /* color:rgba(46, 80, 128, 1) ; */
+     /* color:rgba(158, 143, 221, 1);  */
+    /* color:rgba(221, 165, 226, 1); */
+
+}
+/* CSS landing page*/
+
+body{
+   background-color : rgb(6, 4, 6);
+   font-family: 'Hubballi', cursive;
+
+}
+
+
+h1{
+    font-weight: bold;
+    color:rgba(221, 165, 226, 1);
+}
+
+.middle-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-size: 312.5%;
+    color:rgba(221, 165, 226, 1);
+   
+}
+
+
+.intro {
+    text-align: center;
+    color:rgba(134, 231, 212, 1);
+    margin-top: 30px;
+}
+
+.h2{
+    font-size: 2.5rem;
+    color:rgba(221, 165, 226, 1);
+}
+
+.button-class{
+     margin-top: 5%;
+     text-align: center;
+     height: 50px;
+     
+    
+}
+
+#dive-in-button{
+    background-color: rgba(134, 231, 212, 1);
+    border-radius: 30px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Hubballi', cursive;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 8px;
+    cursor: pointer;
+}
+
+/* css Home page */
+
+
+/* css header Nav-Bar */
+
+li {
+   display: inline-block;
+   font-size: 25px;
+   font-family: 'Hubballi';
+   color: #2A180Cff;
+   font-weight: bold;
+}
+
+a{
+    color:#2A180Cff ;
+    font-family: 'Hubballi';
+    margin: 10px 20px ;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.home-nav{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-bottom:8px;
+    box-sizing: border-box;
+}    
+
+.header-container{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    background: linear-gradient(to right,  #C791E7ff,#86E7D4ff, #2A180Cff);
+}
+
+/* .home-nav .nav-links ul li.active a{
+    color:white;
+    font-weight: 900;
+} */
+
+.home-nav .menu-hamburger{
+    display: none;
+    margin: 8px;
+    height: 40px;
+    width: 40px;
+
+}
+
+
+
+/* css main */
+.skill-row{
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+    line-height: 2;
+    color:rgba(158, 143, 221, 1);
+    font-weight: 200;
+    padding: 8px;
+    
+   
+    
+     
+}
+
+#skill-title{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    text-align: center;
+    font-weight: 700;
+ 
+}
+
+.author-Portrait{
+   display: grid;
+   place-items: center;
+}
+
+#myPortrait{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    align-items: center;
+    display: block; 
+    border: 3px;
+    border-color:rgba(221, 165, 226, 1) ; 
+    border: 2px;
+    margin-bottom: 10rem;
+  
+}
+
+
+h2{
+   
+   /* color:rgba(221, 165, 226, 1); */
+   color:white;
+   font-family: 'BhuTuka Expanded One', cursive;
+   font-weight: 900;
+}
+
+/* Top skill section of home.html */
+
+h3{
+    padding: 30px;
+    font-family: 'Syne Mono', monospace;
+    -webkit-text-stroke: 1px rgb(255, 255, 255, 0.3);
+    -webkit-text-fill-color: transparent;
+  
+   
+}
+
+h3:hover{
+    -webkit-text-fill-color:rgba(221, 165, 226, 1);
+}
+
+p{
+    color:rgba(158, 143, 221, 1);
+    font-size: 27px;
+    
+}
+
+li{
+    color:white;
+    padding-right: 6px;
+   
+}
+
+.stacks_title{
+    color:rgba(221, 165, 226, 1);
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.stacks{
+    color:white;
+}
+
+.www-image{
+    float: left;
+    margin-right: 30px;
+    height:8rem;
+    width:8rem;
+}
+.ux-image{
+    float: right;
+    padding: 10px;
+    margin-left: 30px;
+    height:10rem;
+    width:10rem;
+    
+    
+
+}
+.back-end-image{
+    float: left;
+    padding: 10px;
+    margin-right: 30px;
+    height:10rem;
+    width:10rem;
+}
+
+.contact-container{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+    color:rgba(221, 165, 226, 1);
+    
+}
+.contact-button-class{
+    margin-top: 10%;
+     text-align: center;
+     height: 50px;
+}
+
+#contact-button{
+    background-color: rgba(134, 231, 212, 1);
+    border-radius: 30px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Hubballi', cursive;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*  css footer */
+
+footer{
+    height: 20%;
+    width: 100%;
+    background: linear-gradient(to left,  #C791E7ff,#86E7D4ff, #2A180Cff);
+    padding: 50px 0 20px;
+    text-align: center;
+ 
+
+}
+.footer{
+    position:relative ;
+    
+
+}
+
+
+
+.skill_title_wrapper{
+   width: 100%;
+   height: 40vh;
+   padding-top:250px;
+}
+
+/* diversity title */
+
+#skill-title-h2{
+    font-size: 4rem;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    font-weight: 500px;
+    z-index: 10;
+}
+
+/* embrace title */
+
+.skill-back-text{
+    width: max-content;
+    position: absolute;
+    top:25%;
+    transform: translate(-50%,- 50%);
+}
+
+/* position and opacity effects on embrace title */
+
+.skill-back-text span{
+    display: inline-block;
+    font-size: 250px;
+    font-weight: 700;
+    /* -webkit-text-stroke: 1px rgb(255, 255, 255, 0.3); */
+    /* -webkit-text-fill-color: transparent; */
+    transform: translateY(100px);
+    transition: transform 1s, opacity 0.5s, -webkit-text-stroke-color 0.5s;
+    opacity: 0;
+}
+
+.skill-back-text span.active{
+    transform: translateY(0px);
+    opacity:1;
+}
+
+/* transition effect on embrace title */
+
+.skill-back-text span:nth-child(1){
+    transition-delay:0.5s ;
+}
+
+.skill-back-text span:nth-child(2){
+    transition-delay:1s ;
+}
+.skill-back-text span:nth-child(3){
+    transition-delay:1.5s ;
+}
+.skill-back-text span:nth-child(4){
+    transition-delay:0.5s ;
+}
+.skill-back-text span:nth-child(5){
+    transition-delay:2s ;
+}
+.skill-back-text span:nth-child(6){
+    transition-delay:2.5s ;
+}
+.skill-back-text span:nth-child(7){
+    transition-delay:3s ;
+}
+
+.skill-back-text:hover span{
+    -webkit-text-stroke-color:rgba(221, 165, 226, 1);
+}
+
+
+.skill-section-h3{
+    font-size: 3rem;
+}
+
+/* contact section on home.html */
+
+#contact-h2-title{
+    font-size:3rem;
+    overflow: hidden;
+  perspective: 1000px;
+  scroll-snap-align: start;
+}
+
+#contact-h3-title{
+  font-size: 2rem;
+ 
+}
+.home-links{
+    font-size: 20px;
+}
+#mention-legal{
+    color:#2A180Cff ;
+}
+
+
+/* PROJECT Page Title*/
+
+
+.projects-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+   
+     
+}
+
+
+.description{
+    font-family: 'Hubballi';
+    margin:8px;
+   
+  
+}
+
+
+
+#FamProject-Link{
+    color: white;
+}
+/* CSS NEXT PROJECT PAGE  */
+
+.next-container{
+    display: grid;
+    justify-content: center;
+}
+.next-description{
+    grid-row: 1;
+   text-align: center;
+   margin: 2rem;
+   padding: 15px;
+   font-family: 'Hubballi';
+  
+}
+
+.next-title {
+    margin: 8px;
+    padding: 15px;
+}
+
+.capture1-container{
+    grid-row: 2;
+    grid-column: 1;
+    display: grid;
+    margin: 6rem;
+    padding: 2rem;
+    border: dotted 2px;
+    border-color: #C791E7ff;
+    box-shadow: inset;
+
+}
+
+.capture2-container{
+    grid-row: 3;
+    grid-column: 1;
+    margin: 6rem;
+    display: grid;
+    padding: 2rem;
+    border: dotted 2px;
+    border-color: #C791E7ff;
+    box-shadow: inset;
+
+}
+
+.webpage-capture {
+    height: 20rem;
+    width: 30rem;
+}
+
+.image-description{
+
+    grid-column: 2;
+    margin: 2rem;
+    padding: 4rem;
+}
+
+.image2-description{
+    grid-column: 2;
+    margin: 2rem;
+    padding: 4rem;
+}
+
+#next-description{
+   
+    color:rgba(221, 165, 226, 1);
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+    margin: 4rem;
+ }
+
+ #next-title {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-size: 312.5%;
+    color:white;
+   
+}
+
+/* css telegram page */
+
+#telegramImage{
+    height: 30rem;
+    width: 15rem;
+   display: block;
+   margin-top: 10rem;
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+
+
+/* MEDIA QUERY */
+
+ /*  gère les query version mobile */
+  
+@media screen and (max-width: 550px) {
+    /* LANDING PAGE */
+    /* titre landing page */
+  
+    .title {
+        margin-top: 30%;
+        font-size: 200.5%;
+    }
+
+  
+    .h2{
+        font-size: 2.5rem;
+        color:rgba(221, 165, 226, 1);
+    }
+
+    /* titre software Engineer  */
+    .intro {
+        font-size: 18px;
+        margin-top: 5rem;
+        font-weight: bold;
+    }
+    /*  dive in button css */
+    .button-class{
+        margin-top: 35%;
+        text-align: center;
+        height: 50px;
+    }
+
+    #dive-in-button{
+    color: black;
+    padding: 10px 22px;
+    font-size: 2rem;
+
+    }
+
+
+
+    /* NAVBAR et TOGGLE */
+
+    .home-nav{
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 20px;
+        font-family: 'Hubballi';
+        color: #2A180Cff;
+        font-weight: bold;
+     }
+    
+    .nav-links{
+      top:0;
+      left:0;
+      position: absolute;
+      width: 100%;
+      background-color:rgba(215, 193, 228, 0.602) ;
+      height:100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -100%;
+      
+    }
+
+ 
+    .mobile-menu{
+        margin-left: 0;
+    }
+
+
+    .home-nav .menu-hamburger{
+       display: block;
+       position: absolute;
+    
+    }
+
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 17rem;
+    }
+
+    .nav-links ul li{
+        margin:5px 0;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    /* HOME PAGE mobile version css */
+
+    /* css main section homepage */
+
+    .skill-row{
+
+        width: 100vw;
+        margin: auto;
+        line-height: 2;
+        color:rgba(158, 143, 221, 1);
+        font-weight: 200;
+        padding: 8px;
+          
+    }
+
+    .skill-back-text span{
+        font-size: 30px;
+        font-size: 3.5em; 
+      
+    }
+
+    #skill-title-h2{
+      font-size: 2.5rem;
+      
+    }
+
+    #myPortrait{
+        margin-top:6.5rem;
+    }
+
+    #contact-h2-title{
+        font-size: 1.5rem;
+    }
+
+    .skills-row .skill-section-h3{
+        color: rgba(221, 165, 226, 1) ;
+    }
+
+    /* PROJECT/NEXT PAGE mobile version css */
+
+    /* Main section css */
+    .next-container{
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+    }
+
+    #next-title{
+        margin-top: 2rem;
+    }
+
+   #next-description{
+    align-items: center;
+    font-size: 1.5em;
+    margin: 1px 10px;
+   }
+   
+   .capture1-container{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 2rem;
+    align-items: center;
+    align-content: center;
+    
+   }
+
+   .webpage-capture{
+    height:40vh;
+    width: 100vw;
+   }
+
+   .image-description{
+    
+    grid-column: 1;
+    margin: 2rem;
+    padding: 4rem;
+   }
+
+   .capture2-container{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 10rem;
+    align-items: center;
+    align-content: center;
+
+   }
+
+   .image2-description{
+    grid-column: 1;
+    margin: 2rem;
+    padding: 4rem;
+
+   }
+   
+   
+  }
+
