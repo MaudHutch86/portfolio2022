@@ -503,6 +503,26 @@ footer{
   
 }
 
+/* CSS ERROR PAGE */
+
+.error{
+    display: block;
+}
+
+.error-code{
+    margin-top: 10rem;
+    font-size: 15rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.error-description{
+    font-size: 6rem;
+    display: flex;
+    text-align: center;
+    justify-content: center
+}
 
 /* MEDIA QUERY */
 
@@ -690,6 +710,16 @@ footer{
     padding: 4rem;
 
    }
+
+   /*  CSS ERROR PAGE MOBILE VERSION */
+
+   .error-code{
+    margin-top: 8rem;
+    font-size: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
    
    
   }
